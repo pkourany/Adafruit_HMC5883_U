@@ -32,6 +32,9 @@
 #if defined (SPARK)
 #include "Adafruit_Sensor.h"
 #include "Adafruit_HMC5883_U.h"
+#include "math.h"
+
+const float PI = 3.1415926535;
 #else
 #include <Wire.h>
 #include <Adafruit_Sensor.h>

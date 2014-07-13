@@ -19,7 +19,6 @@
 #if defined (SPARK)
 #include "application.h"
 #include "Adafruit_Sensor.h"
-#include "Wire.h"
 #else
 #if (ARDUINO >= 100)
  #include "Arduino.h"
